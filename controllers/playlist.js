@@ -18,7 +18,6 @@ playlistRouter.get('/all', async (request, response) => {
 })
 
 playlistRouter.get('/', async (request, response) => {
-	console.log('Request,', request)
 	const token = getTokenFrom(request)
 	const decodedToken = jwt.verify(token, process.env.SECRET)
 
@@ -44,7 +43,7 @@ playlistRouter.put('/:id', async (request, response) => {
 	const body = request.body
 	const playlist = await Playlist.findById(body.playlist_id)
 
-	playlist.playlist_items = playlist.playlist_items.filter((item, index) =>
+	playlist.playlist_items = playlist.playlist_items.filter((item) =>
 		item.toString() !== request.params.id ? item : null
 	)
 	playlist.save()
