@@ -1,0 +1,7 @@
+post http://localhost:3001/api/playlist
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5ld1VzZXJuYW1lIiwibmFtZSI6Im5ld05hbWUiLCJpZCI6IjYwZWU1YjUwNzNlZWEyMmFjMDE1NjM2ZiIsImlhdCI6MTYyNjM0NTUyOH0.K1_FRn4pPd0GU_I9ba5-AKrN9v4zi6ZJZ6TnkHUWfAs
+
+{
+	"name": "newPlaylist3"
+}

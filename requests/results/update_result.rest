@@ -1,0 +1,6 @@
+put http://localhost:3001/api/results/60ee5b3973eea22ac0156364
+Content-Type: application/json
+
+{
+	"userId": "60ee5b3f73eea22ac015636b"
+}

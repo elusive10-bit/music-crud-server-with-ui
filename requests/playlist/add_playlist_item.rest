@@ -1,0 +1,7 @@
+put http://localhost:3001/api/playlist/result/60ef9dfb3689ec28684a27b1
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5ld1VzZXJuYW1lIiwibmFtZSI6Im5ld05hbWUiLCJpZCI6IjYwZWU1YjUwNzNlZWEyMmFjMDE1NjM2ZiIsImlhdCI6MTYyNjM1ODcxOH0.dMwY0rShQJ3zK24OdquQUsuGNJPRysw0FqfpXHEQah0
+
+{
+	"playlistId": "60f04078a41e7d05dcbb175b"
+}

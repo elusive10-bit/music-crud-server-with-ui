@@ -1,0 +1,6 @@
+delete http://localhost:3001/api/playlist/60f14be09ff0e809b832982d
+Content-Type: application/json
+
+{
+	"playlist_id": "60f14c417c24d517f04b4051"
+}

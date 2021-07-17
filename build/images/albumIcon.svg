@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="SVGRoot"
+   version="1.1"
+   viewBox="0 0 100 100"
+   height="100"
+   width="100"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="albumIcon.svg">
+  <defs
+     id="defs856" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4"
+     inkscape:cx="55.134597"
+     inkscape:cy="100.26561"
+     inkscape:document-units="px"
+     inkscape:current-layer="g854"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       id="grid1426"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata859">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0,0.22012579,-0.22012579,0,108.26457,-13.1303)"
+       id="g854"
+       style="display:inline;opacity:1">
+      <rect
+         style="display:inline;fill:#2d2d2d;fill-opacity:0.976401;stroke:none;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2934"
+         width="454.28571"
+         height="454.28571"
+         x="59.649078"
+         y="37.544769" />
+      <g
+         transform="matrix(0,-1.5858085,1.5858085,0,-318.25562,457.54461)"
+         id="g3113">
+        <circle
+           r="88.135811"
+           cy="381.53885"
+           cx="154.51186"
+           id="path2936"
+           style="display:inline;fill:#52d37e;fill-opacity:0.976401;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <circle
+           style="display:inline;fill:#3ce977;fill-opacity:0.976401;stroke:none;stroke-width:2.39825;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="circle2940"
+           cx="154.51186"
+           cy="381.53885"
+           r="70.457237" />
+        <g
+           transform="translate(-0.73782349,18.61615)"
+           id="g2948"
+           style="display:inline">
+          <circle
+             style="fill:#83f0a9;fill-opacity:0.976401;stroke:none;stroke-width:1.80258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="circle2942"
+             cx="155.24968"
+             cy="362.9227"
+             r="52.957237" />
+          <circle
+             r="42.064381"
+             cy="362.9227"
+             cx="155.24968"
+             id="circle2944"
+             style="fill:#d0fade;fill-opacity:0.976401;stroke:none;stroke-width:1.4318;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <circle
+           r="10.101525"
+           cy="380.02362"
+           cx="154.00679"
+           id="path2938"
+           style="display:inline;fill:#ffffff;fill-opacity:0.976401;stroke:none;stroke-width:0.82192;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:93.7768px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.34442"
+         x="96.010162"
+         y="455.20389"
+         id="text842"><tspan
+           id="tspan840"
+           x="96.010162"
+           y="455.20389"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:2.34442"
+           sodipodi:role="line">Vocaloid</tspan></text>
+    </g>
+  </g>
+</svg>
