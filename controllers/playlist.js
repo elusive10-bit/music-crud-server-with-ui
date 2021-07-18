@@ -35,6 +35,10 @@ playlistRouter.delete('/', async (request, response) => {
 	response.json(await Playlist.deleteMany({ user: decodedToken.id }))
 })
 
+playlistRouter.delete('/:id', async (request, response) => {
+	response.json(await Playlist.findByIdAndRemove(request.params.id))
+})
+
 playlistRouter.delete('/all', async (request, response) => {
 	response.json(await Playlist.deleteMany({}))
 })
