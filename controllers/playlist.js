@@ -53,17 +53,30 @@ playlistRouter.put('/:id', async (request, response) => {
 
 playlistRouter.post('/', async (request, response) => {
 	const body = request.body
-	token = getTokenFrom(request)
+	const token = getTokenFrom(request)
 
 	const decodedToken = jwt.verify(token, process.env.SECRET)
 
 	const user = await User.findById(decodedToken.id)
-	console.log('User:', user.id)
-	const newPlaylist = new Playlist({
-		name: body.name,
-		user: user.id,
-	})
-	response.json(await newPlaylist.save())
+
+	const duplicatePlaylistName = await Playlist.findOne({ user: user.id })
+	if (duplicatePlaylistName !== null) {
+		if (duplicatePlaylistName.name === body.name) {
+			response.status(400).end()
+		} else {
+			const newPlaylist = new Playlist({
+				name: body.name,
+				user: user.id,
+			})
+			response.json(await newPlaylist.save())
+		}
+	} else {
+		const newPlaylist = new Playlist({
+			name: body.name,
+			user: user.id,
+		})
+		response.json(await newPlaylist.save())
+	}
 })
 
 playlistRouter.put('/result/:id', async (request, response) => {
