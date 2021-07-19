@@ -2,18 +2,18 @@
 
 ## when running this app locally, make a file name .env and include the following:
 
-## PORT
+## PORT = '(PORT NO.)'
 Any port number
 
-## SECRET
+## SECRET = 'String'
 Secret for the jsonwebtoken could be any string
 
-## MONGODB_URI
+## MONGODB_URI = 'MONGODB_URI'
 URL or URI for the MONGODB Atlas Database
 
 # If you are cloning this repository 
 
-### npm install 
+### `npm install` 
 before running the app
 
 
