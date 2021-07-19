@@ -1,2 +1,2 @@
 get http://localhost:3001/api/results/60ef9dfb3689ec28684a27b2
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5ld1VzZXJuYW1lIiwibmFtZSI6Im5ld05hbWUiLCJpZCI6IjYwZWU1YjUwNzNlZWEyMmFjMDE1NjM2ZiIsImlhdCI6MTYyNjQwNTczNX0.vCWMczgUqaQlLKQe-ZnXWOTVD8SjwaoJgrXEKFh-lDA
+Authorization: bearer && (json web token)
