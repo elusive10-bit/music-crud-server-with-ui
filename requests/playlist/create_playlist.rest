@@ -1,6 +1,6 @@
 post http://localhost:3001/api/playlist
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im5ld1VzZXJuYW1lIiwibmFtZSI6Im5ld05hbWUiLCJpZCI6IjYwZjI4MzA1NjNmOWQ5MzUzNDNjMTU0MCIsImlhdCI6MTYyNjUwNTk5OH0.-Ulckh3Y1EIG9pZkDBPDlmO2MDsmz9wkhP6uKTaSSiM
+Authorization: bearer && (jsonwebtoken)
 
 {
 	"name": "newPlaylist"
