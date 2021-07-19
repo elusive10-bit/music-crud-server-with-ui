@@ -1,5 +1,16 @@
 # music-crud-server-with-ui
 
+# when running this app locally, make a file name .env and include the following:
+
+## PORT
+Any port number
+
+## SECRET
+Secret for the jsonwebtoken
+
+## MONGODB_URI
+URL or URI for the MONGODB Atlas Database
+
 # If you are cloning this repository 
 
 ### `npm install` 
