@@ -1,6 +1,6 @@
 # music-crud-server-with-ui
 
-# when running this app locally, make a file name .env and include the following:
+## when running this app locally, make a file name .env and include the following:
 
 ## PORT
 Any port number
