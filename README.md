@@ -13,7 +13,7 @@ URL or URI for the MONGODB Atlas Database
 
 # If you are cloning this repository 
 
-### `npm install` 
+### npm install 
 before running the app
 
 
