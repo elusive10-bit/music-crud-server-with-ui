@@ -6,7 +6,7 @@
 Any port number
 
 ## SECRET
-Secret for the jsonwebtoken
+Secret for the jsonwebtoken could be any string
 
 ## MONGODB_URI
 URL or URI for the MONGODB Atlas Database
